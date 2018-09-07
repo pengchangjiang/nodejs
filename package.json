@@ -1,0 +1,13 @@
+{
+  "name": "getip",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "browser-sync start --server --files *.html,css/*.css,js/*.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "dependencies": {}
+}
